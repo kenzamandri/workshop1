@@ -1,0 +1,54 @@
+#mainfooter {
+  background-color: darkgrey;
+  display: block;
+  border-top: solid 40px;
+  box-sizing: border-box;
+  height: 500px;
+}
+.container {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  max-width: 1080px;
+  margin: auto;
+}
+.locations {
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  padding: 40px;
+  position: relative;
+
+}
+.footerwidget {
+  float: left;
+}
+.title1 {
+  color: maroon;
+}
+.textwidget {
+  color: white;
+}
+.SocialMedia {
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  padding: 40px;
+  position: relative;
+}
+.StayInformed {
+  background: transparent;
+  font-size: 100%;
+  vertical-align: baseline;
+  padding: 40px;
+  position: relative;
+}
+.box {
+  background-color: white;
+  width: 131px;
+}
+.box1 {
+  background-color: maroon;
+  color: black;
+  text-align: center;
+}
