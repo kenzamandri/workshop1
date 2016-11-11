@@ -3,6 +3,10 @@ body {
   background: maroon;
   color: white;
   font-family: arial;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+
 }
 
 div nav {
@@ -35,19 +39,43 @@ div nav ul li a {
 div nav ul li a:hover {
   color: aqua;
 }
+.parallax {
+    background-image: url("GC.jpeg");
 
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .section {
-  width: 30%;
+  width: 100%;
   float: left;
-  margin: 2%;
-
-
+  margin: auto;
+}
+#header {
+  right: 0px;
+  left:0px;
+  height:200px
+  top: 0px;
+}
+.slide {
+  padding: 0px;
+  box-sizing: border-box;
+  box-sizing: inherit;
+  box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+	transform-style: inherit;
+}
 #mainfooter {
   background-color: darkgrey;
   display: block;
-  border-top: solid 40px;
+  border-top: solid 10px;
   box-sizing: border-box;
-  height: 500px;
+  height: 350px;
+  left: 0px;
+  bottom: 0px;
+  width:100%;
 }
 .container {
   width: 100%;
@@ -60,7 +88,7 @@ div nav ul li a:hover {
   background: transparent;
   font-size: 100%;
   vertical-align: baseline;
-  padding: 40px;
+  padding: 0px 50px 20px 50px;
   position: relative;
 
 }
@@ -77,14 +105,14 @@ div nav ul li a:hover {
   background: transparent;
   font-size: 100%;
   vertical-align: baseline;
-  padding: 40px;
+  padding: 0px 50px 20px 50px;
   position: relative;
 }
 .StayInformed {
   background: transparent;
   font-size: 100%;
   vertical-align: baseline;
-  padding: 40px;
+  padding: 0px 50px 20px 50px;
   position: relative;
 }
 .box {
