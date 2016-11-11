@@ -1,78 +1,97 @@
-
-body {
-  background: maroon;
-  color: white;
+html {
+  background-color: grey;
   font-family: arial;
 }
 
-div nav {
-  width: 100%;
-  height: 100px;
-  background-color: grey;
-  padding-bottom: 30px;
+body {
+  font font-family: sans-serif;
+  font size: 1em;
+  line-height: 1.5em;
 }
 
-div nav ul li {
-  color: white;
+img {
   display: block;
-  text-decoration: none;
-  width: 100px;
-  font-weight: bold;
-  text-align: center;
-  margin: 45px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: grey solid;
-  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul li {
+  display: inline;
   float: left;
+  margin: 50px;
+}
+
+ul li a {
+  width: 90px;
+  font-weight: bold;
+  color: white;
+  background-color: grey;
   text-align: center;
+  padding: 4px;
+  text-transform: uppercase;
 }
 
-div nav ul li a {
-  text-decoration: none;
+ul li a:hover, a:active {
+	color: aqua;
 }
 
-div nav ul li a:hover {
-  color: aqua;
+h1 {
+  color: maroon;
+}
+
+h2 {
+  color: #242729;
+}
+
+p {
+  color: white;
 }
 
 .section {
-  width: 30%;
-  float: left;
-  margin: 2%;
+  width: 48%;
+  float: right;
+  margin: 10px;
+  padding: 20px;
+}
 
+.contact {
+  font-size: 25pt;
+}
 
 #mainfooter {
-  background-color: darkgrey;
+  background-color: grey;
   display: block;
   border-top: solid 40px;
   box-sizing: border-box;
   height: 500px;
 }
+
 .container {
   width: 100%;
   position: relative;
   text-align: left;
   max-width: 1080px;
-  margin: auto;
 }
+
 .locations {
   background: transparent;
   font-size: 100%;
   vertical-align: baseline;
   padding: 40px;
   position: relative;
-
 }
+
 .footerwidget {
   float: left;
 }
+
 .title1 {
   color: maroon;
 }
 .textwidget {
   color: white;
 }
+
 .SocialMedia {
   background: transparent;
   font-size: 100%;
@@ -80,6 +99,7 @@ div nav ul li a:hover {
   padding: 40px;
   position: relative;
 }
+
 .StayInformed {
   background: transparent;
   font-size: 100%;
@@ -87,12 +107,18 @@ div nav ul li a:hover {
   padding: 40px;
   position: relative;
 }
+
 .box {
   background-color: white;
   width: 131px;
 }
+
 .box1 {
   background-color: maroon;
   color: black;
   text-align: center;
+}
+
+li a {
+  text-decoration: none;
 }
